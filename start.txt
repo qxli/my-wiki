@@ -1,0 +1,21 @@
+## 代码(code)
+
+- [c/c++](/code::cpp)　[java](/code::java)　[python](/code::python)　[php](/code::php)　
+[js](/code::js)　[shell](/code::shell)　[markdown](/code::markdown)
+
+## 技术(skill)
+
+- [mysql](/skill::mysql)　[nginx](/skill::nginx)
+
+## 工具(tools)
+
+- [vim](/tools::vim)　[gdb](/tools::gdb)　[git](/tools::git)　[svn](/tools::svn)　
+[wiki](/tools::wiki)　[gcc](/tools::gcc)　[makefile](/tools::makefile)　[rpm](/tools::rpm)
+
+## 系统(os)
+
+- [linux](/os::linux)　[mac](/os::mac)　[windows](/os::windows)
+
+## 读书(book)
+
+- [翻译](/book::translation)

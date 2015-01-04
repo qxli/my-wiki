@@ -1,0 +1,29 @@
+#linux
+##命令   
+### 文本相关  
+
+- [sed](/os::linux::sed)
+- [cat](/os::linux::cat)
+- [wc](/os::linux::wc)
+- [grep](/os::linux::grep)
+- [awk](/os::linux::awk)
+
+### 系统相关
+
+- [ssh](/os::linux::ssh)
+- [kill](/os::linux::kill)
+- [du](/os::linux::du)
+- [watch](/os::linux::watch)
+- [lsof](/os::linux::lsof)
+- [ps](/os::linux::ps)
+
+### 网络相关
+
+- [curl](/os::linux::curl)
+
+
+### 文件相关
+
+- [ls](/os::linux::ls)
+- [ln](/os::linux::ln)
+ 

@@ -1,0 +1,8 @@
+#cat  
+##查看文本   
+
+- `$ cat foo.txt`
+
+##合并两个文本   
+
+- `$ cat foo.txt bar.txt > foobar.txt`

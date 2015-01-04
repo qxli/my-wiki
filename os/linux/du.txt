@@ -1,0 +1,6 @@
+#du
+
+##计算目录大小
+```
+$ du -h --max-depth=1 | grep 'G' | sort
+```

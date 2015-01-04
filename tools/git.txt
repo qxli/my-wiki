@@ -1,0 +1,50 @@
+##简介
+
+- Git是目前世界上最先进的分布式版本控制系统（没有之一）。
+
+##命令
+### config
+
+- `$ git config --global user.name "John Doe"`
+- `$ git config --global user.email johndoe@example.com`
+- `$ git config --global push.default simple`
+
+
+### commit
+
+- `$ git commit -m "代码提交信息"`  
+*改动已经提交到了 HEAD，但是还没到你的远端仓库。*
+
+### push
+```
+git push (远程仓库名) (分支名)
+```
+
+- `$ git push origin master`  
+*Git 会自动为你将此远程仓库命名为 origin，将这些改动提交到远端仓库,可以把 master 换成你想要推送的任何分支。*
+
+### poll
+
+##问题
+1.执行git push有如下提示
+```
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+```
+解决办法：`$ git config --global push.default simple`
+##参考资料
+
+- [Git 官网](http://git-scm.com)
+- [Git - 简易指南](http://www.bootcss.com/p/git-guide/)
+- [Git教程](http://lvwzhen.github.io/Git-Tutorial/)
