@@ -8,6 +8,11 @@
 ##STL
 
 - [hash_map](/code::cpp::hash_map)
+- [set](/code::cpp::set)
+
+## 库函数
+
+- [memset](/code::cpp::memset)
 
 ##网络编程
 ##技巧

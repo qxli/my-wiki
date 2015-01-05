@@ -41,6 +41,12 @@ $ SELECT DISTINCT id FROM tablename;
   #返回表的记录总数
 $ SELECT count(*) FROM tablename
 ```
+####limit
+```
+#返回前几条或者中间某几行数据
+$ SELECT * FROM table LIMIT 5
+$ SELECT * FROM table LIMIT 5,10
+```
 
 ##QA
 ###解决输出中文乱码

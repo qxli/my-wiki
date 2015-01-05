@@ -145,3 +145,12 @@ $ ${var/pattern/string}
 # 使用string替换pattern的最大匹配部分。如果pattern以/开头则进行全部替换，否则只替换第一个匹配的位置。
 如果pattern以#开始，则起始部分必须匹配，如果以%开始则结尾部分必须匹配
 ```
+
+### for..in..循环
+```
+arr="element1 element2 element3"
+for i in $arr
+do
+    echo $i
+done
+```

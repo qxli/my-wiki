@@ -7,6 +7,7 @@
 - [wc](/os::linux::wc)
 - [grep](/os::linux::grep)
 - [awk](/os::linux::awk)
+- [uniq](/os::linux::uniq)
 
 ### 系统相关
 
@@ -16,6 +17,7 @@
 - [watch](/os::linux::watch)
 - [lsof](/os::linux::lsof)
 - [ps](/os::linux::ps)
+- [crond](/os::linux::crond)
 
 ### 网络相关
 
@@ -26,4 +28,8 @@
 
 - [ls](/os::linux::ls)
 - [ln](/os::linux::ln)
- 
+
+
+##操作
+
+- [设置时区](/os::linux::set-time-zone)

@@ -1,0 +1,7 @@
+
+
+## vector 2 set
+```
+std::set<int> fooSet( fooVec.begin(), fooVec.end() );
+std::copy( fooVec.begin(), fooVec.end(), std::inserter( fooSet, fooSet.end() ) );
+```

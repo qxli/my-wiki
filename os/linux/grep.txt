@@ -1,5 +1,8 @@
 #grep
-
+##递归查找某字符串
+```
+$ grep -rn --include="*.log" "foobar" /var/log/
+```
 ##问题
 ###Binary file a.log matches
 ```
