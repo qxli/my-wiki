@@ -1,7 +1,0 @@
-#rpm
-
-##解压
-RPM包是使用cpio格式打包的，因此可以先转成cpio然后解压
-```
-$ rpm2cpio foo.rpm | cpio -div
-```

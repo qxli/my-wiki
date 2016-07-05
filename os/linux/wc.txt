@@ -1,5 +1,0 @@
-#wc
-##查看文件多少行
-
-- `$ cat foo.txt | wc -l`  
-*-l, --lines print the newline counts*

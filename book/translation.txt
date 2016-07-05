@@ -1,6 +1,0 @@
-#翻译
-
-## Google C++ Style Guide
-
-- [英文](http://google-styleguide.googlecode.com/svn/trunk/cppguide.html)
-- [翻译](/book::translation::google-cpp-style)
