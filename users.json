@@ -1,0 +1,9 @@
+{
+  "qxli": {
+    "active": true, 
+    "authentication_method": "cleartext", 
+    "password": "123", 
+    "authenticated": false, 
+    "roles": []
+  }
+}

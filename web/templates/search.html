@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}
+{% if search %}
+	Results for "{{ search }}"
+{% else %}
+	Search
+{% endif %}
+{% endblock title %}
+
+{% block content %}
+{% if search %}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <span>{{ keyword }}</span>
+                <small>
+                    <span>{{ results|length }}个相关结果</span>
+                </small>
+            </h3>
+        </div>
+    	{% if results %}
+            {% for result in results %}
+                <div class="panel-body">
+                    <a href="{{ url_for('site.display', url=result['path']) }}">
+                        <h4>{{ result['title'] }}</h4>
+                    </a>
+                    <p>{{ result['desc'] | safe}}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class="panel-body"><p>No results for your search.</p></div>
+	    {% endif %}
+    </div>
+{% endif %}
+{% endblock content %}

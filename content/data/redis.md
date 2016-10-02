@@ -1,8 +1,5 @@
----
-title: "Getting Started"
-layout: page
-date: 2099-06-02 00:00
----
+tags: 
+title: data/redis
 
 #redis
 
@@ -10,3 +7,5 @@ date: 2099-06-02 00:00
 ```
 $ redis-cli -h 127.0.0.1 -p 5629 -a '123456' keys "token_*" | xargs redis-cli -h 127.0.0.1 -p 5629 -a '123456' del
 ```
+
+### 连接redis

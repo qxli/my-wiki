@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title -%}
+	Welcome to your new wiki!
+{% endblock title %}
+
+{% block jumbotron %}
+    <div class="jumbotron hidden-sm">
+        <pre style="background: transparent; border: none; margin: 0 auto;" class="">
+       ____________    ____________    _____________    ___
+      /  _________/\  /  ______   /\  /____   _____/\  /  /\
+     /  /\________\/ /  /\____/  / /  \___/  /\____\/ /  / /
+    /  /_/______    /  / /   /  / /      /  / /      /  / /
+   /  _________/\  /  / /   /  / /      /  / /      /  / /
+  /  /\________\/ /  / /   /  / /      /  / /      /  / /
+ /  /_/______    /  /_/___/  / /      /  / /      /  /_/______
+/___________/\  /___________/ /      /__/ /      /___________/\
+\___________\/  \___________\/       \__\/       \___________\/
+
+         *** THE REVENGE OF THE END OF THE LINE ***
+             Connect via:  telnet eotl.org 2010
+        </pre>
+    </div>
+{% endblock jumbotron %}
+
+{% block content %}
+    {% for content in contents %}
+        {% if loop.index is divisibleby(4) %}
+        <div class="row">
+        {% endif %}
+            <div class="col-md-3">
+                <h2 class="down-line"><span><i class="glyphicon glyphicon-book"></i> {{ content.title }}</span></h2>
+                <ul>
+                    {% for key, value in content.urls.items() %}
+                    <li><a href="{{ value }}">{{ key }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% if loop.index is divisibleby(4) %}
+        </div>
+        {% endif %}
+    {% endfor %}
+{#<p><a href="{{ url_for('site.edit', url='home') }}" class="btn btn-success">Create a homepage</a></p>#}
+{% endblock %}
